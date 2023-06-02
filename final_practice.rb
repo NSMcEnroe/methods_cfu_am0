@@ -73,11 +73,34 @@ puts greet_person_corey
 # All three arguments were strings.
 
 # 4: Write a method named square that takes in one integer, and returns the square of that integer.
+
+# Bonus: Print a sentence that interpolates the return value of your square method.
+
+
+def square(number)
+    return "The answer is #{number*number}."
+end
+
+
+puts square(5)
+puts square (10)
+
+square_of_5 = puts square(5)
+square_of_10 = puts square (10)
+
+puts square_of_5
+puts square_of_10
+
 # Bonus: Print a sentence that interpolates the return value of your square method.
 
 # What is the return value of your method?
+# The return value is "The answer is #{number*number}."
+
 # How many arguments did you pass your method?
+#I only passed 1 argument through this method.
+
 # What data type was your argument(s)?
+# The data type of the argument was an integer.
 
 
 # 5: Write a method named check_stock that satisfies the following interaction pattern:
