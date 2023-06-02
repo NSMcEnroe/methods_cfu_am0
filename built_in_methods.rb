@@ -88,3 +88,15 @@ puts state.eql?("Nebrask")
 # Call a different built-in Ruby method on each of your variables. 
 # https://ruby-doc.org/core-3.1.0/Array.html
 # Include comments above each method call explaining the impact and return value of that method.
+
+array = [3, 7, 9]
+array.push(6)
+#The push method is called on the array variable, which stores the array object [3, 7, 9]
+#The push method adds the argument onto the array, making the argument the last variable in the array.
+#The return variable would be [3, 7, 9, 6].
+
+array2 = [2, 4, 6]
+array2.insert(2, 5)
+#The insert method is called on the array2 variable, which stores the array object [2, 4, 6]
+#The insert methods inserts the argument into the specified index position.  For this example, 5 is placed in 2nd index position.
+#The return variable would be [2, 4, 5, 6]
