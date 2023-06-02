@@ -49,6 +49,20 @@
 first_name = "Jeff"
 puts first_name.start_with?("J")
 
+last_name = "Smith"
+puts last_name.casecmp?("smith")
+# The casecmp? method is called on the last_name variable, which stores the string object "Smith". 
+# The casecmp? method returns true if the data in the last_name variable has all the same characters in the correct order.  However, casecmp does not care about capitalization.
+# In this example, the return value is true, because "Smith" has the same characters as "smith".
+# The puts command prints the return value of the casecmp? method (true) to the console.
+
+state = "Nebraska"
+puts state.eql?("Nebrask")
+# The eql? method is called on the state variable, which stores the string object "Nebraska". 
+# The eql? method returns true if the data in the state variable is the exact same as the argument.
+# In this example, the return value is false, because "Nebrask" does not have all the same letters as "Nebraska".
+# The puts command prints the return value of the eql? method (false) to the console.
+
 
 
 # SECTION 3: Calling methods on variables assigned to integers.
