@@ -71,6 +71,16 @@ puts state.eql?("Nebrask")
 # https://ruby-doc.org/core-3.1.0/Integer.html
 # Include comments above each method call explaining the impact and return value of that method.
 
+7.fdiv(2)
+#The fdiv method is called on the integer object 7.
+#The f div method takes the integer and divides it by its argument, but presents in the ouput as a float variable.
+#In this example, the return value is 3.5, since 7/2 is 3.5.
+
+48.gcd(100)
+#The gcd method is called on the integer object 100
+#The gcd method finds the greatest common denominator between the called integer object and its argument.
+#In this example, the return value would be 4, since the greatest common denominator of 48 and 100 is 4.
+
 
 
 # SECTION 4: Calling methods on variables assigned to arrays.
