@@ -117,3 +117,18 @@ puts square_of_10
 
 # check_stock(1, "Salsa");
 # # => "Salsa - running LOW"
+
+def check_stock(integer, product)
+    if integer >= 4 
+        return "#{product} is stocked."
+    elsif integer >=1
+        return "#{product} - running LOW"
+    else 
+        return "#{product} - OUT of stock!"
+    end
+end
+
+puts check_stock(4, "Coffee")
+puts check_stock(3, "Tortillas")
+puts check_stock(0, "Cheese")
+puts check_stock(1, "Salsa")
