@@ -20,8 +20,9 @@ puts road_rage_outburst
 
 # What is the return value of your method?
 #The return value of my method is "Happy Holidays, #{name}!  My understanding of it is that this the output provided from the method when given appropriate inputs "name".
+
 # How many arguments did you pass your method?
-# I passed two arguments through my method.
+# I passed one arguments through my method.
 
 # 2: Write a method named custom_greeting that returns a greeting WITH a specific name.
 
@@ -42,17 +43,34 @@ puts santa_holiday_greeting
 #The return value of my method is "Happy Holidays, #{name}!  My understanding of it is that this the output provided from the method when given appropriate inputs "name".
 
 # How many arguments did you pass your method?
-# I passed two arguments through my method.
+# I passed one argumentsthrough my method.
 
 # What data type was your argument(s)?
 # The data type was a string.
 
 # 3: Write a method named greet_person that takes in 3 strings, a first, middle, and last name, and returns a sentence with the full name.
 
-# What is the return value of your method?
-# How many arguments did you pass your method?
-# What data type was your argument(s)?
+def greet_person(first, middle, last)
+    return "How's it going #{first} #{middle} #{last}?"
+end
 
+puts greet_person("Nicholas", "Steven", "McEnroe")
+puts greet_person("Corey", "Marie", "Luna")
+
+greet_person_nick = greet_person("Nicholas", "Steven", "McEnroe")
+greet_person_corey = greet_person("Corey", "Marie", "Luna")
+
+puts greet_person_nick
+puts greet_person_corey
+
+# What is the return value of your method?
+#The return value of my method is "How's it going #{first} #{middle} #{last}?"
+
+# How many arguments did you pass your method?
+# I passed three arguments through my method.
+
+# What data type was your argument(s)?
+# All three arguments were strings.
 
 # 4: Write a method named square that takes in one integer, and returns the square of that integer.
 # Bonus: Print a sentence that interpolates the return value of your square method.
