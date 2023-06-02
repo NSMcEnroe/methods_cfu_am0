@@ -10,19 +10,29 @@
 
 
 "Hello World".include?("Hello")
-
+#The include? method is called on the string object "Hello World"
+#The argument "Hello" is passed; include? is inquiring if the string includes the phrase "Hello"
+#The return value is true
 
 "Hello World".end_with?("Hello")
-
+#The end_with? method is called on the string object "Hello World"
+#The argument "Hello" is passed; end_with? is inquiring if the string ends with "Hello"
+#The return value is false
 
 "Hello World".end_with?("rld")
-
+#The end_with? method is called on the string object "Hello World"
+#The argument "rld" is passed; end_with? is inquiring if the string ends with "rld"
+#The return value is true
 
 12.even?
-
+#The even> method is called on the integer object 12
+#No arguments are passed; even? is inquiring if the integer is an even value
+#The return value is true
 
 18.next
-
+#The next method is called on the integer object 18
+#No argument is passed; next has the job to output the next integer.
+#The return value is 19
 
 
 # SECTION 2: Calling methods on variables assigned to strings.
