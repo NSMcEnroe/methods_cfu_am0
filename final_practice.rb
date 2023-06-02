@@ -6,6 +6,19 @@
 
 # 1: Write a method named greeting that returns a string with a general greeting. 
 
+def holiday_greeting(name)
+    return "Happy Holidays, #{name}!"
+end
+
+puts holiday_greeting("Mom")
+puts holiday_greeting("Santa")
+
+mom_holiday_greeting = "Happy Holidays, Mom!"
+santa_holiday_greeting = "Happy Holidays, Santa!"
+
+puts mom_holiday_greeting
+puts santa_holiday_greeting
+
 # What is the return value of your method?
 # How many arguments did you pass your method?
 
@@ -35,14 +48,14 @@
 # 5: Write a method named check_stock that satisfies the following interaction pattern:
 # Hint: You will only write one check_stock method that checks the quantity and then prints the corresponding statement.
 
-check_stock(4, "Coffee");
-# => "Coffee is stocked"
+# check_stock(4, "Coffee");
+# # => "Coffee is stocked"
 
-check_stock(3, "Tortillas");
-# => "Tortillas - running LOW"
+# check_stock(3, "Tortillas");
+# # => "Tortillas - running LOW"
 
-check_stock(0, "Cheese");
-# => "Cheese - OUT of stock!"
+# check_stock(0, "Cheese");
+# # => "Cheese - OUT of stock!"
 
-check_stock(1, "Salsa");
-# => "Salsa - running LOW"
+# check_stock(1, "Salsa");
+# # => "Salsa - running LOW"
